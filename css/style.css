@@ -1,0 +1,92 @@
+
+/* Navbar */
+.navbar{text-transform: uppercase; ma}
+.navbar-brand {color:#a67ecf !important; font-weight: bold;}
+.nav-link:hover ,.active .nav-link{color:#a67ecf !important;}
+.nav-link{ font-size: 18px;}
+.navbar-expand-lg .navbar-collapse {justify-content: flex-end; }
+.carousel-indicators li{width: 10px;height: 10px;border-radius: 50%;}
+/* About &&& Product */
+.about{ width: 100%;height: auto;}
+.about .narrow h1{
+    font-size: 2em;
+    color: #a67ecf;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+ p{
+     font-size: 1.05em; 
+     color: #777;
+     line-height: 1.7;
+    }
+.about .image{
+    background:url(../images/banner.jpg)  ; 
+    background-size: cover;
+    position: relative;
+    height: 440px; 
+}
+.about .image p{
+    bottom: 0;
+    color: #ddd;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.about img ,.product img{width: 100%;}
+/* Services */
+.service{
+    width: 100%;
+    height: 400px;
+    line-height: 400px;
+    background-attachment:fixed;
+    background-image: url(../images/co.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.service p{
+    font-size: 20px;
+    border: 2px solid #999;
+    color:#999;
+    font-weight: bold;
+    margin-top: 15%;
+    padding: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+/* Many */
+.many {
+    width: 100%;
+    height: auto;
+    background-color: #e3e3e3;
+}
+.many .row i ,
+.many .row .part{float: left;}
+.many .row i{width: 20%; padding-top: 70px;}
+.many .row .part{width: 80%;}
+.many .part h2 ,.many .part p{margin: 0; padding: 0;}
+.many .part h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a67ecf;
+    font-size: 1.5em;
+}
+.many .part p{text-align: justify;}
+/* Footer */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+footer p{font-size: 15px;}
+footer i{
+    padding: 7px;
+    background-color: #777;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 22px;
+    width: 37px;
+    height: 37px;
+    margin: 5px;
+}
+@media only screen and (max-width: 768px){
+    p{text-align: justify;}
+}
